@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//   we declared a variable (name) and set it to 'Dane' as a string
+//    we check if "name" is equal to 'Mary'. "name" isnt equal to 'Mary' so
+//    we conosole.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  We declared a variable without a value (secret)
+// We declared a Variable (code) and assigned it to A number (123)
+//  A conditional that checks if code equals to 123
+// We assigned the variable of 'secret' To a 'super' Inside the conditional statement.
+// We multiply the value of variable 'code' By two.
+// We checked a conditional check check if the new value of 'code' Is greater than 250
+// If the conditional statement is true, then the code output is 'duper'
+// The program prints out whether the variable (secret) Output 'super' or 'duper'.
 
 //CODE
 /*
@@ -70,11 +74,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+//   we create the variable (isStudent) and set it to the boolean value (true)
+//   we create the variable (age) and set it to 34 the number
+//   we create the variable (zip) and set it to 55407 the number
+//    we check a condtional statment if (isStudent) is equal to (true) while also checking if zip is greater than the value 80,000. then we assigned console.log(' You're a student on the West Coast!') if that condition isnt met then
+//    else we check another Conditional statements that if 'isStudent' Is equal to false or age is less than 30 then within that statement Console Is equal to false or age is less than 30 then within that statement Console.log('what are your hobbies')
+// we check a another conditional statement that if isStudent Is equal to true then console.log('welcome to Prime!') but
+// if none of the previous statemmets are fulfilled then it will console.log('how about the weather?'). Annd because isStudent is (true) then it will print (Welcome to Prime!)
 //CODE
 /*
 let isStudent = true;
@@ -134,8 +140,24 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+
+// swap the values for colorOne and colorTwo;
+
+let colorOne = 'blue';
+let colorTwo = 'red';
+
+
 if (mix === true) {
   colorOne = 'purple';
+
+
+  one colorOne is set to purple
+fix;
+if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+
+
 }
 */
 
@@ -150,6 +172,14 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+fix; the code is if temp is greater then 39 OR if time is greater than or equal to 4
+
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
+
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -165,5 +195,11 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-*/
+  this code will console.log 'no entry' so in order to fix it( also it had no mention of an else part so i removed it)
 
+      if(minAge <= age) {
+     console.log('entry');
+        }
+
+}
+*/ 
